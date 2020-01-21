@@ -1,0 +1,383 @@
+VERSION 5.00
+Begin VB.PropertyPage ppButton 
+   Caption         =   "ControlButton"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.CheckBox chkButtonVisible 
+      Height          =   285
+      Index           =   5
+      Left            =   4680
+      TabIndex        =   31
+      Top             =   2160
+      Width           =   255
+   End
+   Begin VB.CheckBox chkButtonVisible 
+      Height          =   285
+      Index           =   4
+      Left            =   4680
+      TabIndex        =   30
+      Top             =   1800
+      Width           =   255
+   End
+   Begin VB.CheckBox chkButtonVisible 
+      Height          =   285
+      Index           =   3
+      Left            =   4680
+      TabIndex        =   29
+      Top             =   1440
+      Width           =   255
+   End
+   Begin VB.CheckBox chkButtonVisible 
+      Height          =   285
+      Index           =   2
+      Left            =   4680
+      TabIndex        =   28
+      Top             =   1080
+      Width           =   255
+   End
+   Begin VB.CheckBox chkButtonVisible 
+      Height          =   285
+      Index           =   1
+      Left            =   4680
+      TabIndex        =   27
+      Top             =   720
+      Width           =   255
+   End
+   Begin VB.CheckBox chkButtonVisible 
+      Height          =   285
+      Index           =   0
+      Left            =   4680
+      TabIndex        =   26
+      Top             =   360
+      Width           =   255
+   End
+   Begin VB.CheckBox chkEnabled 
+      Height          =   285
+      Index           =   5
+      Left            =   3960
+      TabIndex        =   24
+      Top             =   2160
+      Width           =   300
+   End
+   Begin VB.CheckBox chkEnabled 
+      Height          =   285
+      Index           =   4
+      Left            =   3960
+      TabIndex        =   23
+      Top             =   1800
+      Width           =   300
+   End
+   Begin VB.CheckBox chkEnabled 
+      Height          =   285
+      Index           =   3
+      Left            =   3960
+      TabIndex        =   22
+      Top             =   1440
+      Width           =   300
+   End
+   Begin VB.CheckBox chkEnabled 
+      Height          =   285
+      Index           =   2
+      Left            =   3960
+      TabIndex        =   21
+      Top             =   1080
+      Width           =   300
+   End
+   Begin VB.CheckBox chkEnabled 
+      Height          =   285
+      Index           =   1
+      Left            =   3960
+      TabIndex        =   20
+      Top             =   720
+      Width           =   300
+   End
+   Begin VB.TextBox txtButtonCaption 
+      Height          =   330
+      Index           =   5
+      Left            =   1080
+      TabIndex        =   13
+      Text            =   "Button 5"
+      Top             =   2160
+      Width           =   2340
+   End
+   Begin VB.TextBox txtButtonCaption 
+      Height          =   330
+      Index           =   4
+      Left            =   1080
+      TabIndex        =   12
+      Text            =   "Button 4"
+      Top             =   1800
+      Width           =   2340
+   End
+   Begin VB.TextBox txtButtonCaption 
+      Height          =   330
+      Index           =   3
+      Left            =   1080
+      TabIndex        =   11
+      Text            =   "Button 3"
+      Top             =   1440
+      Width           =   2340
+   End
+   Begin VB.TextBox txtButtonCaption 
+      Height          =   330
+      Index           =   2
+      Left            =   1080
+      TabIndex        =   10
+      Text            =   "Button 2"
+      Top             =   1080
+      Width           =   2340
+   End
+   Begin VB.TextBox txtButtonCaption 
+      Height          =   330
+      Index           =   1
+      Left            =   1080
+      TabIndex        =   9
+      Text            =   "Button 1"
+      Top             =   720
+      Width           =   2340
+   End
+   Begin VB.TextBox txtButtonCaption 
+      Height          =   330
+      Index           =   0
+      Left            =   1080
+      TabIndex        =   8
+      Text            =   "Button 0"
+      Top             =   360
+      Width           =   2340
+   End
+   Begin VB.TextBox txtButtonTop 
+      Height          =   330
+      Left            =   720
+      TabIndex        =   6
+      Top             =   2880
+      Width           =   1140
+   End
+   Begin VB.TextBox txtButtonWidth 
+      Height          =   330
+      Left            =   4080
+      TabIndex        =   4
+      Top             =   2880
+      Width           =   1140
+   End
+   Begin VB.TextBox txtButtonHeight 
+      Height          =   330
+      Left            =   2400
+      TabIndex        =   2
+      Top             =   2880
+      Width           =   1125
+   End
+   Begin VB.CheckBox chkEnabled 
+      Height          =   285
+      Index           =   0
+      Left            =   3960
+      TabIndex        =   0
+      Top             =   360
+      Width           =   300
+   End
+   Begin VB.Label Label3 
+      Alignment       =   2  'Center
+      Caption         =   "Visible"
+      Height          =   255
+      Left            =   4440
+      TabIndex        =   32
+      Top             =   120
+      Width           =   615
+   End
+   Begin VB.Label Label2 
+      Alignment       =   2  'Center
+      Caption         =   "Enable"
+      Height          =   255
+      Left            =   3840
+      TabIndex        =   25
+      Top             =   120
+      Width           =   495
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "5"
+      Height          =   255
+      Index           =   5
+      Left            =   720
+      TabIndex        =   19
+      Top             =   2280
+      Width           =   255
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "4"
+      Height          =   255
+      Index           =   4
+      Left            =   720
+      TabIndex        =   18
+      Top             =   1920
+      Width           =   255
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "3"
+      Height          =   255
+      Index           =   3
+      Left            =   720
+      TabIndex        =   17
+      Top             =   1560
+      Width           =   255
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "2"
+      Height          =   255
+      Index           =   2
+      Left            =   720
+      TabIndex        =   16
+      Top             =   1200
+      Width           =   255
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "1"
+      Height          =   255
+      Index           =   1
+      Left            =   720
+      TabIndex        =   15
+      Top             =   840
+      Width           =   255
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "0"
+      Height          =   255
+      Index           =   0
+      Left            =   720
+      TabIndex        =   14
+      Top             =   480
+      Width           =   255
+   End
+   Begin VB.Label lblButtonCaption 
+      Caption         =   "Button Caption:"
+      Height          =   240
+      Left            =   1080
+      TabIndex        =   7
+      Top             =   120
+      Width           =   1125
+   End
+   Begin VB.Label lblButtonTop 
+      Caption         =   "Top:"
+      Height          =   240
+      Left            =   720
+      TabIndex        =   5
+      Top             =   2640
+      Width           =   1125
+   End
+   Begin VB.Label lblButtonWidth 
+      Caption         =   "Width:"
+      Height          =   240
+      Left            =   4080
+      TabIndex        =   3
+      Top             =   2640
+      Width           =   1125
+   End
+   Begin VB.Label lblButtonHeight 
+      Caption         =   "Height:"
+      Height          =   240
+      Left            =   2400
+      TabIndex        =   1
+      Top             =   2640
+      Width           =   1125
+   End
+End
+Attribute VB_Name = "ppButton"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
+Private Sub txtButtonCaption_Change(Index As Integer)
+    Changed = True
+End Sub
+
+
+Private Sub txtButtonTop_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtButtonWidth_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtButtonHeight_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkEnabled_Click(Index As Integer)
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).ButtonCaption = txtButtonCaption(0).Text
+    SelectedControls(1).ButtonCaption = txtButtonCaption(1).Text
+    SelectedControls(2).ButtonCaption = txtButtonCaption(2).Text
+    SelectedControls(3).ButtonCaption = txtButtonCaption(3).Text
+    SelectedControls(4).ButtonCaption = txtButtonCaption(4).Text
+    SelectedControls(5).ButtonCaption = txtButtonCaption(5).Text
+    
+    SelectedControls(0).ButtonTop = txtButtonTop.Text
+    SelectedControls(1).ButtonTop = txtButtonTop.Text
+    SelectedControls(2).ButtonTop = txtButtonTop.Text
+    SelectedControls(3).ButtonTop = txtButtonTop.Text
+    SelectedControls(4).ButtonTop = txtButtonTop.Text
+    SelectedControls(5).ButtonTop = txtButtonTop.Text
+    
+'    SelectedControls(0).ButtonWidth = txtButtonWidth.Text
+'
+    SelectedControls(0).ButtonHeight = txtButtonHeight.Text
+    SelectedControls(1).ButtonHeight = txtButtonHeight.Text
+    SelectedControls(2).ButtonHeight = txtButtonHeight.Text
+    SelectedControls(3).ButtonHeight = txtButtonHeight.Text
+    SelectedControls(4).ButtonHeight = txtButtonHeight.Text
+    SelectedControls(5).ButtonHeight = txtButtonHeight.Text
+    
+    SelectedControls(0).Enabled = (chkEnabled(0).Value = vbChecked)
+    SelectedControls(1).Enabled = (chkEnabled(1).Value = vbChecked)
+    SelectedControls(2).Enabled = (chkEnabled(2).Value = vbChecked)
+    SelectedControls(3).Enabled = (chkEnabled(3).Value = vbChecked)
+    SelectedControls(4).Enabled = (chkEnabled(4).Value = vbChecked)
+    SelectedControls(5).Enabled = (chkEnabled(5).Value = vbChecked)
+    
+    SelectedControls(0).Visible = (chkButtonVisible(0).Value = vbChecked)
+    SelectedControls(1).Visible = (chkButtonVisible(1).Value = vbChecked)
+    SelectedControls(2).Visible = (chkButtonVisible(2).Value = vbChecked)
+    SelectedControls(3).Visible = (chkButtonVisible(3).Value = vbChecked)
+    SelectedControls(4).Visible = (chkButtonVisible(4).Value = vbChecked)
+    SelectedControls(5).Visible = (chkButtonVisible(5).Value = vbChecked)
+    
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+    txtButtonCaption(0).Text = SelectedControls(0).ButtonCaption
+    txtButtonCaption(1).Text = SelectedControls(1).ButtonCaption
+    txtButtonCaption(2).Text = SelectedControls(2).ButtonCaption
+    txtButtonCaption(3).Text = SelectedControls(3).ButtonCaption
+    txtButtonCaption(4).Text = SelectedControls(4).ButtonCaption
+    txtButtonCaption(5).Text = SelectedControls(5).ButtonCaption
+    txtButtonTop.Text = SelectedControls(0).ButtonTop
+    txtButtonWidth.Text = SelectedControls(0).ButtonWidth
+    txtButtonHeight.Text = SelectedControls(0).ButtonHeight
+    chkEnabled(0).Value = (SelectedControls(0).Enabled And vbChecked)
+    chkEnabled(1).Value = (SelectedControls(1).Enabled And vbChecked)
+    chkEnabled(2).Value = (SelectedControls(2).Enabled And vbChecked)
+    chkEnabled(3).Value = (SelectedControls(3).Enabled And vbChecked)
+    chkEnabled(4).Value = (SelectedControls(4).Enabled And vbChecked)
+    chkEnabled(5).Value = (SelectedControls(5).Enabled And vbChecked)
+End Sub
+
+

@@ -1,0 +1,759 @@
+[Root]
+Most Recent Package=Standard Setup Client Package 4 Floppies
+Most Recent Deploy=Client V4 Floppy
+
+[Package|Standard Setup Client Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\Call Log\Client\Package
+
+[Package|Standard Setup Client Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Client Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Client Package 1|Files Found]
+
+[Package|Standard Setup Client Package 1|Files Released]
+
+[Package|Standard Setup Client Package 1|Missing Dependency Information]
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=
+C:\Program Files\Common Files\System\ADO\msadomd.dll=
+C:\Program Files\Common Files\System\ADO\msadox.dll=
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+
+[Package|Standard Setup Client Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Client Package 1|Files Added]
+d:\projects\call log\bl server\calltrackerblserver.tlb=
+d:\projects\call log\bl server\calltrackerblserver.vbr=
+
+[Package|Standard Setup Client Package 1|Files Removed]
+d:\projects\call log\bl server\calltrackerblserver.exe=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Client Package 1|Files In Project]
+D:\Projects\Call Log\Client\CallTracker.exe=Yes
+C:\WINNT.SBS\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ADO\msadox.dll=Yes
+C:\Program Files\Common Files\System\ADO\msadomd.dll=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=No
+C:\WINNT.SBS\system32\comdlg32.ocx=Yes
+C:\WINNT.SBS\system32\comctl32.ocx=Yes
+C:\WINNT.SBS\system32\MSADODC.OCX=Yes
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT.SBS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=Yes
+C:\WINNT.SBS\system32\AUTPRX32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=Yes
+
+[Package|Standard Setup Client Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Client Package 1|Configure Remote Servers]
+Applicable=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+
+[Package|Standard Setup Client Package 1|Install Locations]
+D:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+C:\WINNT.SBS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msadox.dll=$(MSDAOPath)
+C:\Program Files\Common Files\System\ADO\msadomd.dll=$(MSDAOPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=$(WinSysPath)
+C:\WINNT.SBS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\MSADODC.OCX=$(MSDAOPath)
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT.SBS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+C:\WINNT.SBS\system32\AUTPRX32.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=$(WinSysPath)
+
+[Package|Standard Setup Client Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Call Log\Client\CallTracker.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=Yes
+
+[Package|Standard Setup Client Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Call Tracker
+
+[Package|Standard Setup Client Package 1|Package]
+PackageFolder=D:\Projects\Call Log\Client\Package
+ProjectFolder=D:\Projects\Call Log\Client
+ServerSideCab=
+File1=D:\Projects\Call Log\Client\Package\setup.exe
+File2=D:\Projects\Call Log\Client\Package\Setup.Lst
+File3=D:\Projects\Call Log\Client\Package\CallTr1.CAB
+File4=D:\Projects\Call Log\Client\Package\CallTr2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Client Package 1|IconGroups]
+Group0=Call Tracker
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Client Package 1|Call Tracker]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Client Package 2|Eurotherm]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon3
+
+
+[Package|Standard Setup Client Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\Call Log\Client\Package2
+
+[Package|Standard Setup Client Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Client Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Client Package 2|Files Found]
+
+[Package|Standard Setup Client Package 2|Files Released]
+
+[Package|Standard Setup Client Package 2|Missing Dependency Information]
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=
+C:\Program Files\Common Files\System\ADO\msadomd.dll=
+C:\Program Files\Common Files\System\ADO\msadox.dll=
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+
+[Package|Standard Setup Client Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Client Package 2|Files Added]
+d:\projects\call log\bl server\calltrackerblserver.tlb=
+d:\projects\call log\bl server\calltrackerblserver.vbr=
+
+[Package|Standard Setup Client Package 2|Files Removed]
+d:\projects\call log\bl server\calltrackerblserver.exe=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Client Package 2|Files In Project]
+D:\Projects\Call Log\Client\CallTracker.exe=Yes
+C:\WINNT.SBS\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ADO\msadox.dll=Yes
+C:\Program Files\Common Files\System\ADO\msadomd.dll=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=No
+C:\WINNT.SBS\system32\comdlg32.ocx=Yes
+C:\WINNT.SBS\system32\comctl32.ocx=Yes
+C:\WINNT.SBS\system32\MSADODC.OCX=Yes
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT.SBS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=Yes
+C:\WINNT.SBS\system32\AUTPRX32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=Yes
+C:\WINNT.SBS\system32\MSHFLXGD.OCX=Yes
+
+[Package|Standard Setup Client Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Client Package 2|Configure Remote Servers]
+Applicable=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+
+[Package|Standard Setup Client Package 2|Install Locations]
+D:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+C:\WINNT.SBS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msadox.dll=$(MSDAOPath)
+C:\Program Files\Common Files\System\ADO\msadomd.dll=$(MSDAOPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=$(WinSysPath)
+C:\WINNT.SBS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\MSADODC.OCX=$(MSDAOPath)
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT.SBS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+C:\WINNT.SBS\system32\AUTPRX32.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=$(WinSysPath)
+C:\WINNT.SBS\system32\MSHFLXGD.OCX=$(WinSysPath)
+
+[Package|Standard Setup Client Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Call Log\Client\CallTracker.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+
+[Package|Standard Setup Client Package 2|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Call Tracker
+
+[Package|Standard Setup Client Package 2|IconGroups]
+Group0=Eurotherm Drives
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Client Package 2|Eurotherm Drives]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Client Package 2|Package]
+PackageFolder=D:\Projects\Call Log\Client\Package2
+ProjectFolder=D:\Projects\Call Log\Client
+ServerSideCab=
+File1=D:\Projects\Call Log\Client\Package2\setup.exe
+File2=D:\Projects\Call Log\Client\Package2\Setup.Lst
+File3=D:\Projects\Call Log\Client\Package2\CallTr1.CAB
+File4=D:\Projects\Call Log\Client\Package2\CallTr2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Deploy|Floppy Deployment 1|Root]
+Package=Standard Setup Client Package 2
+Handler=PDWizard.FloppyDplySubWiz
+Floppy Drive=A:\
+Format=Yes
+
+
+[Package|Client Dep File 4|Eurotherm]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Client Dep File 4|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=h:\Projects\Call Log\Client
+
+[Package|Client Dep File 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Client Dep File 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Client Dep File 4|Files Found]
+CallTrackerBLServer.TLB=H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB
+
+[Package|Client Dep File 4|Files Released]
+
+[Package|Client Dep File 4|Missing Dependency Information]
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=
+C:\Program Files\Common Files\System\ADO\msadomd.dll=
+C:\Program Files\Common Files\System\ADO\msadox.dll=
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+E:\Program Files\Common Files\System\ado\msadomd.dll=
+E:\Program Files\Common Files\System\ado\msadox.dll=
+E:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Client Dep File 4|Out-of-Date Dependency Information]
+
+[Package|Client Dep File 4|Files Added]
+h:\projects\call log\bl server\calltrackerblserver.tlb=
+h:\projects\call log\bl server\calltrackerblserver.vbr=
+
+[Package|Client Dep File 4|Files Removed]
+d:\projects\call log\bl server\calltrackerblserver.exe=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+h:\projects\call log\bl server\calltrackerblserver.vbp=
+h:\projects\call log\bl server\calltrackerblserver.exe=
+
+[Package|Client Dep File 4|Files In Project]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=Yes
+H:\Projects\Call Log\Client\CallTracker.exe=Yes
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+E:\Program Files\Common Files\System\ado\msadox.dll=Yes
+E:\Program Files\Common Files\System\ado\msadomd.dll=Yes
+E:\WINNT\system32\COMDLG32.OCX=Yes
+E:\WINNT\system32\COMCTL32.OCX=Yes
+E:\WINNT\system32\MSADODC.OCX=Yes
+E:\WINNT\system32\MSSTDFMT.DLL=Yes
+E:\WINNT\system32\MSHFLXGD.OCX=Yes
+E:\WINNT\system32\MSFLXGRD.OCX=Yes
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=Yes
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=Yes
+E:\WINNT\system32\AUTPRX32.DLL=Yes
+E:\Program Files\Common Files\System\ado\msador15.dll=Yes
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=No
+
+[Package|Client Dep File 4|Configure Registry Files]
+Applicable=No
+
+[Package|Client Dep File 4|Configure Remote Servers]
+Applicable=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+
+[Package|Client Dep File 4|Install Locations]
+D:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+C:\WINNT.SBS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msadox.dll=$(MSDAOPath)
+C:\Program Files\Common Files\System\ADO\msadomd.dll=$(MSDAOPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=$(WinSysPath)
+C:\WINNT.SBS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\MSADODC.OCX=$(MSDAOPath)
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT.SBS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+C:\WINNT.SBS\system32\AUTPRX32.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=$(WinSysPath)
+C:\WINNT.SBS\system32\MSHFLXGD.OCX=$(WinSysPath)
+H:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msadox.dll=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msadomd.dll=$(WinSysPath)
+E:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+E:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+E:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+E:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+E:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+E:\WINNT\system32\AUTPRX32.DLL=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msador15.dll=$(CommonFilesSys)\ADO
+
+[Package|Client Dep File 4|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Call Log\Client\CallTracker.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+H:\Projects\Call Log\Client\CallTracker.exe=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+
+[Package|Client Dep File 4|Distribution]
+Type=single
+Size=1.44 MB
+Title=Call Tracker
+
+[Package|Client Dep File 4|IconGroups]
+Group0=Big Dog Tools
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Client Dep File 4|Big Dog Tools]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Client Dep File 4|DepFile]
+DepCabFile=CallTracker.CAB
+DepCabRun=CallTracker.INF
+
+[Package|Client Dep File 4|Package]
+PackageFolder=h:\Projects\Call Log\Client
+ProjectFolder=H:\Projects\Call Log\Client
+ServerSideCab=
+File1=h:\Projects\Call Log\Client\CallTracker.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Client Package 4|Eurotherm]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Client Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=h:\Projects\Call Log\Client\Package4
+
+[Package|Standard Setup Client Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Client Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Client Package 4|Files Found]
+CallTrackerBLServer.TLB=H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB
+
+[Package|Standard Setup Client Package 4|Files Released]
+
+[Package|Standard Setup Client Package 4|Missing Dependency Information]
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=
+C:\Program Files\Common Files\System\ADO\msadomd.dll=
+C:\Program Files\Common Files\System\ADO\msadox.dll=
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+E:\Program Files\Common Files\System\ado\msadomd.dll=
+E:\Program Files\Common Files\System\ado\msadox.dll=
+E:\Program Files\Common Files\System\ado\msado25.tlb=
+H:\Program Files\Call Tracker\CallTrackerBLServer.TLB=
+E:\WINNT\system32\msadomd.dll=
+E:\WINNT\system32\msadox.dll=
+
+[Package|Standard Setup Client Package 4|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Client Package 4|Files Added]
+h:\projects\call log\bl server\calltrackerblserver.tlb=
+h:\projects\call log\bl server\calltrackerblserver.vbr=
+
+[Package|Standard Setup Client Package 4|Files Removed]
+d:\projects\call log\bl server\calltrackerblserver.exe=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+h:\projects\call log\bl server\calltrackerblserver.vbp=
+h:\projects\call log\bl server\calltrackerblserver.exe=
+e:\winnt\system32\mshflxgd.ocx=
+e:\program files\common files\system\ado\msado25.tlb=
+
+[Package|Standard Setup Client Package 4|Files In Project]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Projects\Call Log\Client\CallTracker.exe=Yes
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\Program Files\Common Files\System\ado\msado25.tlb=No
+E:\WINNT\system32\COMDLG32.OCX=Yes
+E:\WINNT\system32\COMCTL32.OCX=Yes
+E:\WINNT\system32\MSADODC.OCX=Yes
+E:\WINNT\system32\MSSTDFMT.DLL=Yes
+E:\WINNT\system32\MSHFLXGD.OCX=Yes
+E:\WINNT\system32\MSFLXGRD.OCX=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\WINNT\system32\msadox.dll=Yes
+E:\WINNT\system32\msadomd.dll=Yes
+H:\Program Files\Call Tracker\CallTrackerBLServer.TLB=Yes
+
+[Package|Standard Setup Client Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Client Package 4|Configure Remote Servers]
+Applicable=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+
+[Package|Standard Setup Client Package 4|Install Locations]
+D:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+C:\WINNT.SBS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msadox.dll=$(MSDAOPath)
+C:\Program Files\Common Files\System\ADO\msadomd.dll=$(MSDAOPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=$(WinSysPath)
+C:\WINNT.SBS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\MSADODC.OCX=$(MSDAOPath)
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT.SBS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+C:\WINNT.SBS\system32\AUTPRX32.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=$(WinSysPath)
+C:\WINNT.SBS\system32\MSHFLXGD.OCX=$(WinSysPath)
+H:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msadox.dll=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msadomd.dll=$(WinSysPath)
+E:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+E:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+E:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+E:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+E:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+E:\WINNT\system32\AUTPRX32.DLL=$(WinSysPath)
+E:\WINNT\system32\msadox.dll=$(WinSysPath)
+E:\WINNT\system32\msadomd.dll=$(WinSysPath)
+H:\Program Files\Call Tracker\CallTrackerBLServer.TLB=$(WinSysPath)
+
+[Package|Standard Setup Client Package 4|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Call Log\Client\CallTracker.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+H:\Projects\Call Log\Client\CallTracker.exe=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+
+[Package|Standard Setup Client Package 4|Distribution]
+Type=single
+Size=1.44 MB
+Title=Call Tracker
+
+[Package|Standard Setup Client Package 4|Package]
+PackageFolder=h:\Projects\Call Log\Client\Package4
+ProjectFolder=H:\Projects\Call Log\Client
+ServerSideCab=
+File1=h:\Projects\Call Log\Client\Package4\setup.exe
+File2=h:\Projects\Call Log\Client\Package4\Setup.Lst
+File3=h:\Projects\Call Log\Client\Package4\CallTracker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Client Package 4|IconGroups]
+Group0=Big Dog Tools
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Client Package 4|Big Dog Tools]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon2
+
+
+[Package|Standard Setup Client Package 4 Floppies|Eurotherm]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Client Package 4 Floppies|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=h:\Projects\Call Log\Client\Package4
+
+[Package|Standard Setup Client Package 4 Floppies|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Client Package 4 Floppies|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Client Package 4 Floppies|Files Found]
+CallTrackerBLServer.TLB=H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB
+
+[Package|Standard Setup Client Package 4 Floppies|Files Released]
+
+[Package|Standard Setup Client Package 4 Floppies|Missing Dependency Information]
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=
+C:\Program Files\Common Files\System\ADO\msadomd.dll=
+C:\Program Files\Common Files\System\ADO\msadox.dll=
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=
+E:\Program Files\Common Files\System\ado\msadomd.dll=
+E:\Program Files\Common Files\System\ado\msadox.dll=
+E:\Program Files\Common Files\System\ado\msado25.tlb=
+H:\Program Files\Call Tracker\CallTrackerBLServer.TLB=
+E:\WINNT\system32\msadomd.dll=
+E:\WINNT\system32\msadox.dll=
+
+[Package|Standard Setup Client Package 4 Floppies|Out-of-Date Dependency Information]
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=
+
+[Package|Standard Setup Client Package 4 Floppies|Files Added]
+h:\projects\call log\bl server\calltrackerblserver.tlb=
+h:\projects\call log\bl server\calltrackerblserver.vbr=
+
+[Package|Standard Setup Client Package 4 Floppies|Files Removed]
+d:\projects\call log\bl server\calltrackerblserver.exe=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+h:\projects\call log\bl server\calltrackerblserver.vbp=
+h:\projects\call log\bl server\calltrackerblserver.exe=
+e:\winnt\system32\mshflxgd.ocx=
+e:\program files\common files\system\ado\msado25.tlb=
+
+[Package|Standard Setup Client Package 4 Floppies|Files In Project]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Projects\Call Log\Client\CallTracker.exe=Yes
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\Program Files\Common Files\System\ado\msado25.tlb=No
+E:\WINNT\system32\COMDLG32.OCX=Yes
+E:\WINNT\system32\COMCTL32.OCX=Yes
+E:\WINNT\system32\MSADODC.OCX=Yes
+E:\WINNT\system32\MSSTDFMT.DLL=Yes
+E:\WINNT\system32\MSHFLXGD.OCX=No
+E:\WINNT\system32\MSFLXGRD.OCX=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\WINNT\system32\msadox.dll=Yes
+E:\WINNT\system32\msadomd.dll=Yes
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=Yes
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=Yes
+E:\WINNT\system32\AUTPRX32.DLL=Yes
+E:\WINNT\system32\CLIREG32.EXE=Yes
+
+[Package|Standard Setup Client Package 4 Floppies|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Client Package 4 Floppies|Configure Remote Servers]
+Applicable=Yes
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=,DCOM
+
+[Package|Standard Setup Client Package 4 Floppies|Install Locations]
+D:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+C:\WINNT.SBS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msadox.dll=$(MSDAOPath)
+C:\Program Files\Common Files\System\ADO\msadomd.dll=$(MSDAOPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.exe=$(WinSysPath)
+C:\WINNT.SBS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINNT.SBS\system32\MSADODC.OCX=$(MSDAOPath)
+C:\WINNT.SBS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT.SBS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+C:\WINNT.SBS\system32\AUTPRX32.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=$(WinSysPath)
+C:\WINNT.SBS\system32\MSHFLXGD.OCX=$(WinSysPath)
+H:\Projects\Call Log\Client\CallTracker.exe=$(AppPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msadox.dll=$(WinSysPath)
+E:\Program Files\Common Files\System\ado\msadomd.dll=$(WinSysPath)
+E:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+E:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+E:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+E:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+E:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=$(AppPath)
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=$(AppPath)
+E:\WINNT\system32\AUTPRX32.DLL=$(WinSysPath)
+E:\WINNT\system32\msadox.dll=$(WinSysPath)
+E:\WINNT\system32\msadomd.dll=$(WinSysPath)
+H:\Program Files\Call Tracker\CallTrackerBLServer.TLB=$(WinSysPath)
+E:\WINNT\system32\CLIREG32.EXE=$(WinSysPath)
+
+[Package|Standard Setup Client Package 4 Floppies|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Call Log\Client\CallTracker.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+D:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+H:\Projects\Call Log\Client\CallTracker.exe=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.TLB=No
+H:\Projects\Call Log\BL Server\CallTrackerBLServer.VBR=No
+
+[Package|Standard Setup Client Package 4 Floppies|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Call Tracker
+
+[Package|Standard Setup Client Package 4 Floppies|IconGroups]
+Group0=Big Dog Tools
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Client Package 4 Floppies|Big Dog Tools]
+Icon1=CallTracker.exe
+Title1=Call Tracker
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Standard Setup Client Package 4 Floppies|Package]
+PackageFolder=h:\Projects\Call Log\Client\Package4
+ProjectFolder=H:\Projects\Call Log\Client
+ServerSideCab=
+File1=h:\Projects\Call Log\Client\Package4\setup.exe
+File2=h:\Projects\Call Log\Client\Package4\Setup.Lst
+File3=h:\Projects\Call Log\Client\Package4\CallTr1.CAB
+File4=h:\Projects\Call Log\Client\Package4\CallTr2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Deploy|Client V4 Floppy|Root]
+Package=Standard Setup Client Package 4 Floppies
+Handler=PDWizard.FloppyDplySubWiz
+Floppy Drive=A:\
+Format=Yes

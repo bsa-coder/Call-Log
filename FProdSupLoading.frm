@@ -221,17 +221,18 @@ Begin VB.Form FMain
          NumPanels       =   4
          BeginProperty Panel1 {0713E89F-850A-101B-AFC0-4210102A8DA7} 
             Style           =   6
-            TextSave        =   "7/17/2002"
+            TextSave        =   "8/24/01"
             Object.Tag             =   ""
          EndProperty
          BeginProperty Panel2 {0713E89F-850A-101B-AFC0-4210102A8DA7} 
             Style           =   5
-            TextSave        =   "12:58 AM"
+            TextSave        =   "12:21 AM"
             Object.Tag             =   ""
          EndProperty
          BeginProperty Panel3 {0713E89F-850A-101B-AFC0-4210102A8DA7} 
             Object.Width           =   13053
             MinWidth        =   13053
+            TextSave        =   ""
             Object.Tag             =   ""
          EndProperty
          BeginProperty Panel4 {0713E89F-850A-101B-AFC0-4210102A8DA7} 
@@ -1041,7 +1042,7 @@ Const clCALLTYPE As Integer = 7
 Const clEMPLOYEE As Integer = 8
 Const clCOMPANYUPDATE As Integer = 9
 Const clCONTACTUPDATE As Integer = 10
-Const clCONTACTBYID As Integer = 12
+Const clCONTACT2 As Integer = 12
 Const clCOMPANY2 As Integer = 13
 Const clCONTACT3 As Integer = 14
 Const clCASEID As Integer = 15
@@ -1161,7 +1162,7 @@ Select Case Index
     Case clCOMPANYUPDATE
         LoadOneCustomer clCOMPANY2, Me.LastCompany 'load parents
     Case clCONTACTUPDATE
-        LoadOneCustomer clCONTACTBYID, Me.LastContact 'load children
+        LoadOneCustomer clCONTACT2, Me.LastContact 'load children
 End Select
 
 'Unload FAddItem
@@ -1183,7 +1184,7 @@ Me.LastAction = clDEFAULTLASTACTION
 Me.LastCompany = clDEFAULTLASTCOMPANY
 Me.LastContact = clDEFAULTLASTCONTACT
 
-cmdEditCall_Click (1) 'resizes the form, will delete this in the future
+cmdShowMore_Click (1) 'resizes the form, will delete this in the future
 Load FAddItem 'gets the form into memory for faster adds
 
 'set date
@@ -1435,15 +1436,15 @@ fQuery.Show vbModal
 End Sub
 
 '##ModelId=3A0F61DD01DF
-Private Sub cmdEditCall_Click(Index As Integer)
-If cmdEditCall(Index).Caption = "More >>" Then
+Private Sub cmdShowMore_Click(Index As Integer)
+If cmdShowMore(Index).Caption = "More >>" Then
     frmCall.Visible = True
     frmCustomer.Visible = True
     cmdUpdate.Visible = True
     cmdCancel(1).Visible = True
-    cmdEditCall(0).Caption = "<< Less"
-    cmdEditCall(1).Caption = "<< Less"
-    cmdEditCall(1).Visible = True
+    cmdShowMore(0).Caption = "<< Less"
+    cmdShowMore(1).Caption = "<< Less"
+    cmdShowMore(1).Visible = True
     Me.Width = 12120
     Me.Height = 9120
     txtMinutes.Left = 4440
@@ -1457,9 +1458,9 @@ Else
     frmCall.Visible = False
     cmdUpdate.Visible = False
     cmdCancel(1).Visible = False
-    cmdEditCall(0).Caption = "More >>"
-    cmdEditCall(1).Caption = "More >>"
-    cmdEditCall(1).Visible = False
+    cmdShowMore(0).Caption = "More >>"
+    cmdShowMore(1).Caption = "More >>"
+    cmdShowMore(1).Visible = False
     Me.Width = 5295
     Me.Height = 6150
     txtMinutes.Left = 120
@@ -1704,7 +1705,7 @@ With tvwCustomers.SelectedItem
         'This is a CUSTOMER (parent)
         If sCurrentParent <> .Key Then
             LoadOneCustomer clCONTACT3, Right(.Key, Len(.Key) - 1)
-            GetCompanyHistory Right(.Key, Len(.Key) - 1), txtCallHistory, Right(.Key, Len(.Key) - 1)
+            GetCompanyHistory Right(.Key, Len(.Key) - 1), txtCallHistory
             lblCaseID.Caption = "0"
         End If
         .Expanded = True
@@ -1723,13 +1724,12 @@ With tvwCustomers.SelectedItem
 '    If Left(.Key, 1) = "p" Then sCurrentParent = .Key Else sCurrentParent = .Parent.Key
 End With
 Exit Sub
-
 tvwCustomersErrorHandler:
 Select Case Err.Number
-    Case 3021 'ADO No Current Record
-        MsgBox tvwCustomers.SelectedItem.Text & " has no contacts, add a contact before proceeding.", vbInformation, "CL-FMain::tvwCustomers"
+    Case 3021
+        MsgBox tvwCustomers.SelectedItem.Text & " has no contacts, add a contact before proceeding.", vbInformation, "CL-FMain::LoadCustomer"
     Case Else
-        MsgBox "Error " & Err.Number & " from " & Err.Source & vbCrLf & Err.Description, vbCritical, "CL-FMain::tvwCustomers"
+        MsgBox "Error " & Err.Number & " from " & Err.Source & vbCrLf & Err.Description, vbCritical, "CL-FMain::LoadCustomer"
 End Select
 End Sub
 
@@ -2204,7 +2204,7 @@ Do While Not rsGeneric.EOF
     Select Case iIndex
         Case clCOMPANY2
             Set NewNode = tvwCustomers.Nodes.Add(, , sChildID, sNodeName, CInt(rsGeneric!cType), CInt(rsGeneric!cType) + 20)
-        Case clCONTACTBYID
+        Case clCONTACT2
             Set NewNode = tvwCustomers.Nodes.Add(sParentID, tvwChild, sChildID, sNodeName, CInt(rsGeneric!cType), CInt(rsGeneric!cType))
     End Select
     rsGeneric.MoveNext
@@ -2310,7 +2310,7 @@ If fQuery.Visible = False Then
                         Set NewNode = .Add(, , sChildID, sNodeName, iType, iType + 20)
                         NewNode.Expanded = False
                         frmSplash.Label1.Caption = "Loading Companies ..." & sParentID
-'                        frmSplash.txtJWVTest.Text = frmSplash.txtJWVTest.Text & sParentID & " :: " & sChildID & " :: " & sNodeName & " :: " & iType & vbCrLf
+                        frmSplash.txtJWVTest.Text = frmSplash.txtJWVTest.Text & sParentID & " :: " & sChildID & " :: " & sNodeName & " :: " & iType & vbCrLf
 '                        sbMain.Panels(3).Text = "Loading Companies ..." & sParentID
                     Case clCONTACT
                         Set NewNode = .Add(sParentID, tvwChild, sChildID, sNodeName, iType, iType + 21)
@@ -2428,7 +2428,7 @@ With tvwCustomers.Nodes
             NewNode.Expanded = False
             sbMain.Panels(3).Text = "Loading Contact ..." & sChildID & " to " & sParentID
         'Edit an existing contact node
-        Case clCONTACTBYID
+        Case clCONTACT2
             With .Item(sChildID)
                 .Text = sNodeName
                 .Image = iType

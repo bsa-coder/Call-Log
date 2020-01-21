@@ -1,0 +1,65 @@
+Line 209: Class ComctlLib.StatusBar of control sbMain was not a loaded control class.
+Line 347: Class ComctlLib.TreeView of control tvwCustomers was not a loaded control class.
+Line 638: Class ComctlLib.ImageList of control imgTreeViewIcons was not a loaded control class.
+Line 11: Property Icon in FMain had an invalid file reference.
+Line 216: The property name _ExtentX in sbMain is invalid.
+Line 217: The property name _ExtentY in sbMain is invalid.
+Line 218: The property name SimpleText in sbMain is invalid.
+Line 219: The property name _Version in sbMain is invalid.
+Line 245: The property name Panels in sbMain is invalid.
+Line 348: Property DragIcon in tvwCustomers had an invalid file reference.
+Line 354: The property name _ExtentX in tvwCustomers is invalid.
+Line 355: The property name _ExtentY in tvwCustomers is invalid.
+Line 356: The property name _Version in tvwCustomers is invalid.
+Line 357: The property name LabelEdit in tvwCustomers is invalid.
+Line 358: The property name Style in tvwCustomers is invalid.
+Line 359: The property name ImageList in tvwCustomers is invalid.
+Line 641: The property name _ExtentX in imgTreeViewIcons is invalid.
+Line 642: The property name _ExtentY in imgTreeViewIcons is invalid.
+Line 644: The property name ImageWidth in imgTreeViewIcons is invalid.
+Line 645: The property name ImageHeight in imgTreeViewIcons is invalid.
+Line 646: The property name MaskColor in imgTreeViewIcons is invalid.
+Line 647: The property name _Version in imgTreeViewIcons is invalid.
+Line 651: Property Picture in ListImage1 had an invalid file reference.
+Line 656: Property Picture in ListImage2 had an invalid file reference.
+Line 661: Property Picture in ListImage3 had an invalid file reference.
+Line 666: Property Picture in ListImage4 had an invalid file reference.
+Line 671: Property Picture in ListImage5 had an invalid file reference.
+Line 676: Property Picture in ListImage6 had an invalid file reference.
+Line 681: Property Picture in ListImage7 had an invalid file reference.
+Line 686: Property Picture in ListImage8 had an invalid file reference.
+Line 691: Property Picture in ListImage9 had an invalid file reference.
+Line 695: Property Picture in ListImage10 had an invalid file reference.
+Line 699: Property Picture in ListImage11 had an invalid file reference.
+Line 703: Property Picture in ListImage12 had an invalid file reference.
+Line 707: Property Picture in ListImage13 had an invalid file reference.
+Line 711: Property Picture in ListImage14 had an invalid file reference.
+Line 715: Property Picture in ListImage15 had an invalid file reference.
+Line 719: Property Picture in ListImage16 had an invalid file reference.
+Line 723: Property Picture in ListImage17 had an invalid file reference.
+Line 727: Property Picture in ListImage18 had an invalid file reference.
+Line 731: Property Picture in ListImage19 had an invalid file reference.
+Line 735: Property Picture in ListImage20 had an invalid file reference.
+Line 739: Property Picture in ListImage21 had an invalid file reference.
+Line 743: Property Picture in ListImage22 had an invalid file reference.
+Line 747: Property Picture in ListImage23 had an invalid file reference.
+Line 751: Property Picture in ListImage24 had an invalid file reference.
+Line 755: Property Picture in ListImage25 had an invalid file reference.
+Line 759: Property Picture in ListImage26 had an invalid file reference.
+Line 763: Property Picture in ListImage27 had an invalid file reference.
+Line 767: Property Picture in ListImage28 had an invalid file reference.
+Line 771: Property Picture in ListImage29 had an invalid file reference.
+Line 775: Property Picture in ListImage30 had an invalid file reference.
+Line 779: Property Picture in ListImage31 had an invalid file reference.
+Line 783: Property Picture in ListImage32 had an invalid file reference.
+Line 787: Property Picture in ListImage33 had an invalid file reference.
+Line 791: Property Picture in ListImage34 had an invalid file reference.
+Line 795: Property Picture in ListImage35 had an invalid file reference.
+Line 799: Property Picture in ListImage36 had an invalid file reference.
+Line 803: Property Picture in ListImage37 had an invalid file reference.
+Line 807: Property Picture in ListImage38 had an invalid file reference.
+Line 811: Property Picture in ListImage39 had an invalid file reference.
+Line 815: Property Picture in ListImage40 had an invalid file reference.
+Line 819: Property Picture in ListImage41 had an invalid file reference.
+Line 823: Property Picture in ListImage42 had an invalid file reference.
+Line 826: The property name Images in imgTreeViewIcons is invalid.

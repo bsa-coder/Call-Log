@@ -3,7 +3,7 @@ Attribute VB_Ext_KEY = "RVB_UniqueId" ,"39EBC8A001F6"
 Option Explicit
 
 '##ModelId=39EBC8A0034C
-Public fMainForm As FMain2
+Public fMainForm As FMain
 
 '##ModelId=39EBC8A003AE
 Sub Main()
@@ -31,7 +31,7 @@ Dim dtDisplayTime As Variant
     
 ' Check for DB location
     
-    Set fMainForm = New FMain2
+    Set fMainForm = New FMain
     
 '    Do Until Now() >= dtStartTime + dtDisplayTime
 '        frmSplash.Label1.Caption = CStr(Format(Now(), "HH:MM:SS"))

@@ -1,0 +1,1 @@
+folder contains files used to create client application

@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=Client\CallTracker.vbp
+Project=BL Server\CallTrackerBLServer.vbp
+Project=DB Server\CallTrackerDBServer.vbp
